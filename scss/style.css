@@ -1,0 +1,119 @@
+:root {
+  --primary: #005f6b;
+  --secondary: #6c757d;
+  --light-bg: #f8f9fa;
+  --font-main: Roboto, sans-serif;
+  --font-title: Inter, sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--light-bg);
+  color: #212529;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+}
+
+.c-header {
+  border-bottom: 0.0625rem solid rgba(33, 37, 41, 0.1);
+}
+
+.c-hero {
+  height: 60vh;
+  background: linear-gradient(rgba(0, 95, 107, 0.7), rgba(0, 95, 107, 0.7)), url("../img/hero.webp") center/cover;
+}
+
+.c-icon-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  border: 0.0625rem solid rgba(33, 37, 41, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.c-icon-card:hover {
+  transform: translateY(-0.625rem);
+  box-shadow: 0 1rem 3rem rgba(0, 95, 107, 0.15) !important;
+  border-color: var(--primary);
+}
+.c-icon-card:hover .c-icon-card__circle {
+  background: var(--primary);
+  color: #ffffff;
+}
+.c-icon-card__circle {
+  width: 4.375rem;
+  height: 4.375rem;
+  background: rgba(0, 95, 107, 0.1);
+  color: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  transition: 0.3s ease;
+}
+
+.c-step-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  position: relative;
+  border: 0.0625rem solid rgba(33, 37, 41, 0.05);
+}
+.c-step-card__number {
+  position: absolute;
+  top: -0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--primary);
+  color: #ffffff;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.c-step-card__icon {
+  font-size: 2.5rem;
+  color: var(--primary);
+  margin-top: 0.5rem;
+}
+.c-step-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1.5rem rgba(33, 37, 41, 0.1) !important;
+}
+
+.c-stock-group {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(33, 37, 41, 0.075);
+}
+.c-stock-group .table th, .c-stock-group .table td {
+  padding: 0.75rem 0.4rem;
+}
+
+.c-input-nu {
+  width: 5rem;
+  border: 0.0625rem solid #dee2e6;
+  border-radius: 0.3125rem;
+  text-align: center;
+  padding: 0.25rem;
+}
+.c-input-nu:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.u-text-primary {
+  color: var(--primary) !important;
+}
+
+.u-transition {
+  transition: all 0.3s ease-in-out;
+}/*# sourceMappingURL=style.css.map */

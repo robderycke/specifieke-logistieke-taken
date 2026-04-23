@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogistiekeTaken | Rob Derycke</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+
+    <header class="c-header py-3 bg-white sticky-top shadow-sm">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="#" class="c-logo h4 mb-0 text-decoration-none">
+                <span class="fw-bold text-dark">Logistieke</span><span class="u-text-primary">Taken</span>
+            </a>
+            <nav class="c-nav">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a href="#methodiek" class="c-nav__link text-dark text-decoration-none px-2">Methodiek</a></li>
+                    <li class="list-inline-item"><a href="#sinner" class="c-nav__link text-dark text-decoration-none px-2">Sinner</a></li>
+                    <li class="list-inline-item"><a href="#stock" class="c-nav__link text-dark text-decoration-none px-2">Stock</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="c-hero d-flex align-items-center text-center text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="display-3 fw-bold mb-3">Altijd het juiste materiaal, altijd op tijd.</h1>
+                        <p class="lead mb-5">Ondersteuning van zorgteams door deskundig beheer van medische toebehoren.</p>
+                        <a href="#methodiek" class="btn btn-light btn-lg px-5 fw-bold u-transition">Bekijk onze </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="methodiek" class="py-5">
+            <div class="container text-center">
+                <h2 class="mb-5 fw-bold">De 4 Fasen van Methodiek</h2>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="c-icon-card p-4 shadow-sm h-100 u-transition">
+                            <div class="c-icon-card__circle"><i class="bi bi-search"></i></div>
+                            <h3 class="h5 mt-3">1. Informeren</h3>
+                            <p class="small text-muted">Data verzamelen en de opdracht begrijpen.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="c-icon-card p-4 shadow-sm h-100 u-transition">
+                            <div class="c-icon-card__circle"><i class="bi bi-pencil-square"></i></div>
+                            <h3 class="h5 mt-3">2. Plannen</h3>
+                            <p class="small text-muted">Prioriteiten stellen en middelen toewijzen.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="c-icon-card p-4 shadow-sm h-100 u-transition">
+                            <div class="c-icon-card__circle"><i class="bi bi-play-circle"></i></div>
+                            <h3 class="h5 mt-3">3. Uitvoeren</h3>
+                            <p class="small text-muted">De taak uitvoeren volgens protocol.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="c-icon-card p-4 shadow-sm h-100 u-transition">
+                            <div class="c-icon-card__circle"><i class="bi bi-check2-all"></i></div>
+                            <h3 class="h5 mt-3">4. Evalueren</h3>
+                            <p class="small text-muted">Reflecteren op het behaalde resultaat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sinner" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="mb-5 fw-bold">De Cirkel van Sinner</h2>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="c-icon-card p-4 shadow-sm h-100 u-transition js-sinner-card" data-info="De tijd die nodig is voor het reinigingsmiddel om in te werken op het vuil.">
+                    <div class="c-icon-card__circle"><i class="bi bi-clock"></i></div>
+                    <h3 class="h5 mt-3">Tijd</h3>
+                    <p class="small text-muted">Dit is de duur van het contact tussen vuil en schoonmaakmiddel die nodig is om chemische en fysische reacties hun werk te laten doen.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="c-icon-card p-4 shadow-sm h-100 u-transition js-sinner-card" data-info="De invloed van het reinigingsmiddel zelf (zoals de pH-waarde).">
+                    <div class="c-icon-card__circle"><i class="bi bi-thermometer-half"></i></div>
+                    <h3 class="h5 mt-3">Temperatuur</h3>
+                    <p class="small text-muted">Een hogere temperatuur versnelt de reiniging en vetverwijdering, al vragen specifieke vervuilingen zoals eiwitten juist om een lagere temperatuur.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="c-icon-card p-4 shadow-sm h-100 u-transition js-sinner-card" data-info="De temperatuur van het water of de omgeving die vet helpt oplossen.">
+                    <div class="c-icon-card__circle"><i class="bi bi-tools"></i></div>
+                    <h3 class="h5 mt-3">De mechanische arbeid</h3>
+                    <p class="small text-muted">Dit betreft de fysieke wrijving en kracht die wordt uitgeoefend om het vuil daadwerkelijk van het oppervlak los te maken.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="c-icon-card p-4 shadow-sm h-100 u-transition js-sinner-card" data-info="Mechanische kracht zoals schrobben, borstelen of wrijven.">
+                    <div class="c-icon-card__circle"><i class="bi bi-shield"></i></div>
+                    <h3 class="h5 mt-3">Het reinigingsmiddel:</h3>
+                    <p class="small text-muted">De chemische en fysische samenstelling van het middel zorgt voor processen zoals het oplossen van kalk en het emulgeren van vetten.</p>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+        <!--
+<section id="sterilisatie" class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Sterilisatieproces</h2>
+            <p class="text-muted">De cruciale stappen voor kiemvrij instrumentarium.</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-3">
+                <div class="c-step-card p-4 text-center h-100 shadow-sm u-transition">
+                    <div class="c-step-card__number">1</div>
+                    <div class="c-step-card__icon"><i class="bi bi-droplet-fill"></i></div>
+                    <h4 class="h5 my-3">Reiniging</h4>
+                    <p class="small text-muted">Verwijderen van zichtbaar vuil met water en detergent.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="c-step-card p-4 text-center h-100 shadow-sm u-transition">
+                    <div class="c-step-card__number">2</div>
+                    <div class="c-step-card__icon"><i class="bi bi-virus"></i></div>
+                    <h4 class="h5 my-3">Desinfectie</h4>
+                    <p class="small text-muted">Reduceren van micro-organismen tot een veilig niveau.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="c-step-card p-4 text-center h-100 shadow-sm u-transition">
+                    <div class="c-step-card__number">3</div>
+                    <div class="c-step-card__icon"><i class="bi bi-box-fill"></i></div>
+                    <h4 class="h5 my-3">Verpakken</h4>
+                    <p class="small text-muted">Instrumenten steriel verpakken voor de autoclaaf.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="c-step-card p-4 text-center h-100 shadow-sm u-transition">
+                    <div class="c-step-card__number">4</div>
+                    <div class="c-step-card__icon"><i class="bi bi-fire"></i></div>
+                    <h4 class="h5 my-3">Sterilisatie</h4>
+                    <p class="small text-muted">Doden van alle levensvormen (inclusief sporen) via stoom.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+        <section id="stock" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5 fw-bold">Actueel Voorraadbeheer</h2>
+                <div class="row g-4 js-stock-output" id="js-stock-output">
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-4 bg-dark text-white text-center">
+        <p class="mb-0">© 2026 Made by Rob Derycke. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
